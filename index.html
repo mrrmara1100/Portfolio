@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin Mara - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Bin Mara's portfolio showcasing projects and skills in web development, design, and more.">
+
+</head>
+
+<body>
+    <header class="bg-gray-800 text-white p-4">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <h1 class="text-3xl font-bold text-white-600">Bin Mara - Portfolio</h1>
+
+                <nav class="mt-2 flex gap-4 text-white-700 font-medium">
+                    <ul class="flex gap-4">
+                        <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+                        <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                        <li><a href="#projects" class="mr-4 hover:underline">Projects</a></li>
+                        <li><a href="#skills" class="mr-4 hover:underline">Skills</a></li>
+                        <li><a href="#contact" class="hover:underline">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="p-6">
+        <section id="home" class="mb-8 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <h2 class="text-2xl font-semibold mb-4">Welcome to My Portfolio</h2>
+                    <p>Hi, I'm Bin Mara, a passionate web developer and designer. This portfolio showcases my projects, skills, and experience in the field of web development. Feel free to explore and contact me for any inquiries or collaborations.</p>
+                </div>
+
+                <div class="flex justify-center">
+                    <img src="profile.jpg" alt="Profile photo" class="w-72 h-72 object-cover rounded-full shadow-lg">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 bg-white">
+            <div class="max-w-4xl mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">About Me</h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        I am a web development student who enjoys building clean and responsive websites.
+                        I am currently learning HTML, CSS, Tailwind CSS, and JavaScript.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="mb-8 py-16 bg-white">
+            <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-bold mb-2">Project One</h3>
+                    <p>A web application that allows users to track their fitness goals and progress.</p>
+                </div>
+            
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-bold mb-2">Project Two</h3>
+                    <p>An e-commerce platform for small businesses to sell their products online.</p>
+                </div>
+            
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-bold mb-2">Project Three</h3>
+                    <p>A mobile app that helps users manage their daily tasks and improve productivity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="mb-8 py-8 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-4">
+                <h2 class="text-2xl font-bold text-center text-gray-900 mb-10">My Skills</h2>
+
+                <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-6 items-center justify-center">
+                    <div class="bg-white p-6 rounded-lg shadow text-center">
+                        <h3 class="text-xl font-semibold text-grey-600">Web Development (HTML, CSS, JavaScript)</h3>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center">
+                        <h3 class="text-xl font-semibold text-grey-600">Frameworks (React, Vue.js)</h3>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow text-center">
+                        <h3 class="text-xl font-semibold text-grey-600">Design (Figma, Adobe)</h3>
+                    </div>
+                </div>   
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 bg-gray-50">
+            <div class="max-w-3xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-10">Contact Me</h2>
+
+                <form class="bg-white p-6 rounded-lg shadow space-y-5">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                        <input type="text" id="name" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                        <input type="email" id="email" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea id="message" rows="5" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
+                    Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+<footer class="bg-gray-900 text-white py-6">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <p>&copy; 2026 Your Bin Mara. All rights reserved.</p>
+  </div>
+</footer>
+
+</html>
